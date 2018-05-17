@@ -1,0 +1,44 @@
+/* For Nexus Ipad */
+@media screen and (min-width: 768px) {
+  header {
+    padding: 15px 0 0 0;
+    height: 125px;
+  }
+  #header_logo {
+    margin-top: 10px;
+  }
+  #header_name {
+    font-size: 4em;
+    text-align: right;
+  }
+  #header_title {
+    font-size: 2em;
+    text-align: right;
+  }
+  #hero_img {
+    max-height: 450px;
+  }
+  #featured_work .container {
+    flex-direction: row;
+  }
+  #featured_work h2 {
+    font-size: 3em;
+  }
+  .boxes {
+    width: 30%;
+  }
+  .box p {
+    font-size: 3em;
+  }
+  .box a {
+    font-size: 1em;
+  }
+}
+
+/* For Desktop */
+@media screen and (min-width: 800px) {
+  body {
+    width: 800px;
+    margin: auto;
+  }
+}
